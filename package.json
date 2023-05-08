@@ -25,7 +25,6 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.21.4",
-    "@medusajs/admin": "^4.0.0",
     "@medusajs/cache-inmemory": "^1.8.0",
     "@medusajs/cache-redis": "^1.8.0",
     "@medusajs/event-bus-local": "^1.8.0",
