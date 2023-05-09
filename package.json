@@ -21,7 +21,10 @@
     "start": "cross-env npm run build && medusa start",
     "start:custom": "cross-env npm run build && node --preserve-symlinks index.js",
     "dev": "cross-env npm run build && medusa develop",
-    "build:admin": "cross-env medusa-admin build"
+    "build:admin": "cross-env medusa-admin build",
+    "serve": "medusa start",
+    "heroku-postbuild": "medusa migrations run",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.21.4",
