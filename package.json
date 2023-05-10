@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "serve": "medusa start && npm run build:admin",
+    "serve": "medusa start",
     "start": "medusa develop",
     "heroku-postbuild": "medusa migrations run",
     "prepare": "npm run build",
