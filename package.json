@@ -14,10 +14,10 @@
   ],
   "scripts": {
     "serve": "medusa start",
-    "start": "node --max_old_space_size=2560 medusa develop",
+    "start": "medusa develop",
     "heroku-postbuild": "medusa migrations run",
     "prepare": "npm run build",
-    "build": "node --max_old_space_size=2560 babel src -d dist --extensions \".ts,.js\""
+    "build": "babel src -d dist --extensions \".ts,.js\""
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.21.4",
